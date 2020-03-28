@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Discover</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+              background-image: url('pic/bg.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            }
+            
+        </style>
+        <script>
+            function ddfunction() {
+            document.getElementById("Dropdown").classList.toggle("show");
+          }
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
+    </head>
+    <body>
+        <nav>
+                <h2>Voleria</h2>
+                <div class="dropdown">
+                    <button onclick="ddfunction()" class="dropbtn">Menu</button>
+                    <div id="Dropdown" class="dropdown-content">
+                        <a href="home.html">Home</a>
+                        <a href="#about">About</a>
+                        <a href="Explore.html">Explore</a>
+                    </div>
+                </div>
+            </nav>
+        <div class='box' >
+            <div id='savanna'>
+                <h2>Savanna</h2>
+                <div>
+                    <h3>Savanna Elephant</h3>
+                    <img src='pic/elephant.jpg' alt="elephant">
+                    <p>largest land mammal in the world.They weigh up to 10,000 pounds and grow to 12 feet tall. They have a long trunk that is very flexible and has nostrils on 
+                        the end. It is used to pick up food and water and carry it to it's mouth. On the sides of its mouth there are two long teeth that extend out from inside its
+                        mouth. These are called tusks, and are made of ivory. They have thick, gray skin on their bodies that protects them from deadly predator bites.
+                        They are herbivores, and feed on grasses, fruits, tree leaves, bark, shrubs, and vines.
+                        There are usually 10-15 related elephants in a group. Related family members stay in close range of each other. The leader is always a female.</p> 
+                </div>
+                <div>
+                    <h3>Lion</h3>
+                    <img src='pic/lion.jpg' alt="lion">
+                    <p>Lion as a predator in savanna weighing in at 265-420 pounds and up to 10 feet long.Males has manes which female don't have. Manes are a ruff of long hair 
+                        around the neck which is brown in the front and black in the back.Lions are the only cats that live in groups called prides. Each pride is like a community
+                        of 4 to 40 individuals. They all help hunt in order to keep every member healthy, and every cub fed. The pride is made up of one dominant male and maybe a 
+                        few other males, and related females and their cubs. The males protect the pride and the females hunt and take care of the cubs. </p>
+                </div>
+                <div>
+                    <h3>Giraffe</h3>
+                    <img src='pic/giraffe.jpg' alt="giraffe">
+                    <p>Giraffes are the tallest land animals.A giraffe's 6-foot (1.8-meter) neck weighs about 600 pounds (272 kilograms). The legs of a giraffe are also 6 feet (1.8 meters) long.
+                    Giraffes can run very fast—around 35 miles (56 kilometers) per hour for short distances.Giraffes only need 5 to 30 minutes of sleep in a 24-hour period.
+                    Giraffes are ruminants and have a stomach with four compartments that digests the leaves they eat.</p>
+                </div>
+            </div> 
+            <div id='forest'>
+                <h2>Rainforest</h2>
+
+                <div>
+                    <h3>Orangutan</h3>
+                    <img src='pic/orangutan.jpg' alt="orang utan">
+                    <p>The name orangutan means "man of the forest" in the Malay language.Known for their distinctive red fur, orangutans are the largest arboreal mammal, spending
+                        most of their time in trees. Long, powerful arms and grasping hands and feet allow them to move through the branches. These great apes share 96.4% of our
+                        genes and are highly intelligent creatures.</p>
+                </div>
+                <div>
+                    <h3>Bengal Tiger</h3>
+                    <img src='pic/tiger.jpg' alt="bengal tigerr">
+                    <p>Bengals are large cats with a beautiful dark orange color and black stripes. They have white fur around their eyes and around their collars which extends to 
+                       their underbellies. They also have large paws, a long curled tail, and are a little more slender in appearance than some of their tiger cousins.Bengal tigers 
+                       can be found in southeast Asia in parts of India, China, Bangladesh and Indonesia as well as other southeast Asian countries.</p>
+                </div>
+            </div>
+
+            <div id="desert">
+                <h2>Desert</h2>
+                <div>
+                    <div>
+                        <h3>Fennec Fox</h3>
+                        <img src='pic/fox.jpg' alt="fennec fox">
+                        <p>The fennec fox is the smallest foxes, but it have large ears measuring to 6 inches radiate body heat and help keep the foxes cool.
+                            Fennec foxes live in underground dens.Fennec foxes are opportunistic eaters. They forage for plants but also eat rodents, eggs, reptiles, and insects.
+                            It has the ability to go for long periods without water like other animal in desert.</p>
+                    </div>
+                    <div>
+                        <h3>Camel</h3>
+                        <img src='pic/camel.jpg' alt="camel">
+                        <p>There are two types of camels: dromedary camels, which have one hump, and Bactrian camels, which have two humps. Camels' humps consist of stored fat,
+                           which they can metabolize when food and water is scarce.They have a third, clear eyelid that protects their eyes from blowing sand. Two rows of long 
+                           lashes also protect their eyes.They can shut their nostrils during sand storms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <h2>&copy Voleria</h2>
+                <h3>Contact us</h3>
+                <p>Tel: 03-9959 8201</p>
+            </div>
+        </footer>
+    </body>
+</html>
